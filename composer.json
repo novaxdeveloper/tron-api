@@ -17,11 +17,16 @@
         "tron-api",
         "tron-rest-api"
     ],
-
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/novaxdeveloper/web3.php"
+        }
+    ],
     "require": {
         "php": "^7.2",
         "guzzlehttp/guzzle": "^7.0",
-        "iexbase/web3.php": "^2.0",
+        "sc0vu/web3.php": "dev-master",
         "kornrunner/secp256k1": "^0.1.2",
         "simplito/elliptic-php": "^1.0"
     },
